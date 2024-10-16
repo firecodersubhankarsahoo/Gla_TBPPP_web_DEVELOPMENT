@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #eee8e8;
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+    height:50px ;
+    align-items: center;
+    padding-left: 3%;
+    
+}
+.navitem{
+    display: flex;
+}
+
+.container1{
+    height: 100vh;
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.butt1 {
+    display: flex;
+    background-color: black;
+    height:50px;
+    width: 300px;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.about{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.para{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.leftimg{
+    height: 50vh;
+    width: 50vh;
+    
+}
+.container3{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftimg{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.para2{
+    margin-left: 7%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 5%;
+      padding-right: 10%;
+}
+
+.container_03{
+    margin-top: 7%;
+    margin-left: 12%;
+}
+
+.fill{
+    height: 18px;
+    width: 65%;
+    background-color: rgb(65, 76, 65);
+}
+.fill_01{
+    height: 18px;
+    width: 45%;
+    background-color: rgb(44, 49, 44);
+}
+.fill_02{
+    height: 18px;
+    width: 50%;
+    background-color: rgb(34, 37, 34);
+}
+.h3_01{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(68, 63, 63);
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100px;
+}
+.text{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.container5{
+    height: 50vh;
+    background-image: url(./img/img3.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    color: rgb(205, 197, 197);
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
